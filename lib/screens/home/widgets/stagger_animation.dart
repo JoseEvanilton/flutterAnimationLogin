@@ -26,8 +26,8 @@ class StaggerAnimation extends StatelessWidget {
         )
       ),
       fadeAnimation = ColorTween(
-        begin: Color.fromRGBO(247, 64, 106, 1.0),
-        end: Color.fromRGBO(247, 64, 106, 0.0)
+        begin: Color.fromRGBO(43, 106, 198, 1.0),
+        end: Color.fromRGBO(43, 106, 198, 0.0)
       ).animate(
         CurvedAnimation(parent: controller, curve: Curves.decelerate)
       );
